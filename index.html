@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Arduino Party Lamp</title>
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <h3>Red:</h3>
+        <input id="red" type="number"  min="0" max="255" value="0">
+
+        <h3>Blink Party:</h3>
+        <input id="green" type="number"  min="0" max="255" value="0">
+
+
+        <h3>Blue:</h3>
+        <input id="blue" type="number"  min="0" max="255" value="0">
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="./client.js"></script>
+    </body>
+</html>
